@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Screenshot to Google Drive",
+  "version": "1.0",
+  "permissions": ["identity", "activeTab", "scripting", "storage", "clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "oauth2": {
+    "client_id": "PUT YOUE OWN oauth client id",
+    "scopes": ["https://www.googleapis.com/auth/drive.file"]
+  }
+}
+ 
