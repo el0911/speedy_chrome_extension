@@ -25,4 +25,4 @@ open the `manifest.json`
 }
 ```
 
-Replace the client Id with your own client ID takes about 20 minutes to setup
+Replace the client Id with your own client ID takes about 20 minutes to setup, make sure you enable google oauth and google drive APIS
